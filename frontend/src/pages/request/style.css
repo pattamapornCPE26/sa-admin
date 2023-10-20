@@ -1,0 +1,81 @@
+.colourP{
+    color: #E96479;
+  }
+   
+  .layout{
+    position: absolute;
+    background-color: white;
+  }
+  
+  .search{
+    position: absolute;
+    top: 18px;      /* ตั้งค่าให้ช่องค้นหาอยู่ด้านบนสีชมพู */
+    left: 120px;    /* ตั้งค่าให้ช่องค้นหาอยู่ด้านขวาสุด */
+    z-index: 1;     /* กำหนดลำดับการแสดงผลเพื่อให้ช่องค้นหาอยู่เหนือสีชมพู */
+    color: #E96479;
+  }
+  
+  .Exploer{
+    left: 220px;
+  }
+  
+  .SkillFlex {
+    font-size: 2.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: -3px;
+    display: flex;
+    align-self: center;
+  }
+  
+  .SkillFlex .skill {
+    color: rgb(50, 50, 50);
+  }
+  
+  .SkillFlex .flex {
+    color: #E96479;
+  }
+  
+  .colourBG{
+    background:#4D455D ;
+  }
+  
+  .colourB{
+    color: #4D455D;
+  }
+  
+  .tabselect{
+    font-weight: 500;
+    font-size: 50;
+    color: #4D455D;
+  }
+  
+  .welcome{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .rectangle-card {
+    background-color: #F0F3F8;
+    color: 'navy'; 
+    z-index: 1;
+  }
+  
+  .rectangle1 {
+    position: absolute;
+    background-color: #7DB9B6;
+    top: 190px;
+    left: -0px;
+    z-index: 2;
+  }
+  
+  .rectangle2 {
+    position: absolute;
+    background-color: #E1E7F0;
+    top: 247px;
+    left: -57px;
+    z-index: 3;
+  }
+  
+  
